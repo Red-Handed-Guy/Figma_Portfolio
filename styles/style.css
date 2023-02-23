@@ -219,6 +219,7 @@ html {
   height: 24px;
   width: 446px;
   background-color: #f5d6ab;
+  margin-bottom: 21px;
 }
 
 .skills__value:first-child {
