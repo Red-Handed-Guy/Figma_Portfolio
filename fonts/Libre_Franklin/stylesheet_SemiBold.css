@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-SemiBold.eot');
+    src: url('LibreFranklin-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-SemiBold.woff2') format('woff2'),
+        url('LibreFranklin-SemiBold.woff') format('woff'),
+        url('LibreFranklin-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,349 @@
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('../fonts/Libre_Franklin/LibreFranklin-Regular.woff2')
+      format('woff2'),
+    url('../fonts/Libre_Franklin/LibreFranklin-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('../fonts/Libre_Franklin/LibreFranklin-SemiBold.woff2')
+      format('woff2'),
+    url('../fonts/Libre_Franklin/LibreFranklin-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('../fonts/Libre_Franklin/LibreFranklin-Bold.woff2') format('woff2'),
+    url('../fonts/Libre_Franklin/LibreFranklin-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Segoe MDL2 Assets';
+  src: url('../fonts/SegMDL2/SegoeMDL2Assets.woff2')
+      format('woff2'),
+    url('../fonts/SegMDL2/SegoeMDL2Assets.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.page {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  color: #333333;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Libre Franklin';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.padding-inside-blocks {
+  padding: 93px 166px 0 166px;
+}
+
+.header {
+  color: white;
+  position: relative;
+  width: 1440px;
+  height: 768px;
+  background: url(../Images/bg.png);
+}
+
+.header__pink-filter {
+  width: 1440px;
+  height: 768px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(198, 108, 73, 0.3);
+}
+
+.header__nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  margin-bottom: 145px;
+}
+
+.header__title {
+  z-index: 2;
+}
+
+.header__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  z-index: 2;
+  column-gap: 60px;
+}
+
+.header__menu-item {
+  font-size: 18px;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__menu-item_FW_bold {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header__title-hi {
+  position: relative;
+  z-index: 1;
+  line-height: 77.57px;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0 0 26px 0;
+}
+
+.header__subtitle-hi {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 106px 0;
+  font-size: 24px;
+  line-height: 29.09px;
+}
+
+.header__link {
+  position: relative;
+  z-index: 1;
+  color: white;
+  line-height: 21.82px;
+  font-size: 18px;
+}
+
+.about {
+  min-height: 544px;
+}
+
+.about__title {
+  margin-bottom: 76px;
+}
+
+.about__text {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 0 30px 0;
+  text-align: justify;
+}
+
+.about__text:last-child {
+  margin: 0;
+}
+
+.skills {
+  min-height: 693px;
+  background-color: #fffaf2;
+}
+
+.skills__title {
+  margin-bottom: 86px;
+}
+
+.skills__info {
+  display: flex;
+}
+
+.skills__img {
+  margin-right: 125px;
+  height: 340px;
+  width: 350px;
+}
+
+.skills__table {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__attributes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills__name {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+.skills__name:first-child {
+  margin-bottom: 65px;
+}
+
+.skills__name:last-child {
+  margin: 0;
+}
+
+.skills__value {
+  line-height: 25px;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.skills__value:nth-child(2n) {
+  height: 24px;
+  width: 446px;
+  background-color: #f5d6ab;
+}
+
+.skills__value:first-child {
+  margin-bottom: 65px;
+}
+
+.skills__value:last-child {
+  margin: 0;
+}
+
+.skills__value-research {
+  background-color: #c66c49;
+  height: 100%;
+  width: 381px;
+}
+
+.skills__value-design {
+  background-color: #c66c49;
+  height: 100%;
+  width: 351px;
+}
+
+.skills__value-frontend {
+  background-color: #c66c49;
+  height: 100%;
+  width: 286px;
+}
+
+.portfolio {
+  min-height: 822px;
+}
+
+.portfolio__title {
+  margin-bottom: 86px;
+}
+
+.portfolio__subtitle {
+  margin: 0 0 48px 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.portfolio__table {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio__text {
+  margin: 0;
+  width: 349px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.portfolio__image-grid {
+  display: flex;
+  column-gap: 30px;
+  text-align: justify;
+}
+
+.portfolio__image-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.portfolio__image-column:nth-child(1) {
+  max-width: 350px;
+}
+
+.portfolio__image-column:nth-child(2) {
+  max-width: 255px;
+}
+
+.portfolio__arrows {
+  font-family: 'Segoe MDL2 Assets';
+  margin: 0;
+  font-size: 24px;
+}
+
+.portfolio__arrows::before {
+  font-family: 'Segoe MDL2 Assets';
+  content: '\e00e';
+  padding-right: 10px;
+  
+}
+
+.portfolio__arrows::after {
+  font-family: 'Segoe MDL2 Assets';
+  content: '\e00f';
+  padding-right: 10px;
+}
+
+.footer {
+  min-height: 528px;
+  background-color: #FFFAF2;
+}
+
+.footer__title {
+  margin-bottom: 51px;
+}
+
+.footer__columns {
+  display: flex;
+  column-gap: 300px;
+
+}
+
+.footer__column {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  margin: 0;
+}
+
+.footer__column-item {
+  font-size: 18px;
+  line-height: 21.82px;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: inherit;
+}

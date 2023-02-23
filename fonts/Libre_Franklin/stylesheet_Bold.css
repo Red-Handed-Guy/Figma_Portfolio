@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url('LibreFranklin-Bold.eot');
+    src: url('LibreFranklin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('LibreFranklin-Bold.woff2') format('woff2'),
+        url('LibreFranklin-Bold.woff') format('woff'),
+        url('LibreFranklin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
