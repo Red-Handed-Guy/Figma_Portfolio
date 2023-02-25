@@ -29,8 +29,7 @@
 
 @font-face {
   font-family: 'Segoe MDL2 Assets';
-  src: url('../fonts/SegMDL2/SegoeMDL2Assets.woff2')
-      format('woff2'),
+  src: url('../fonts/SegMDL2/SegoeMDL2Assets.woff2') format('woff2'),
     url('../fonts/SegMDL2/SegoeMDL2Assets.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -306,7 +305,6 @@ html {
   font-family: 'Segoe MDL2 Assets';
   content: '\e00e';
   padding-right: 10px;
-  
 }
 
 .portfolio__arrows::after {
@@ -317,7 +315,7 @@ html {
 
 .footer {
   min-height: 528px;
-  background-color: #FFFAF2;
+  background-color: #fffaf2;
 }
 
 .footer__title {
@@ -327,7 +325,6 @@ html {
 .footer__columns {
   display: flex;
   column-gap: 300px;
-
 }
 
 .footer__column {
